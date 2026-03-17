@@ -1,0 +1,14 @@
+# Ignore specific file types in the root directory only
+/*.png
+/*.jpg
+/*.gif
+/*.md
+!/README.md
+/*.py
+/*.pdf
+/*.txt
+/*.html
+/*.docx
+
+# Ensure the .gitignore itself is tracked
+!.gitignore
