@@ -32,7 +32,8 @@ adal-for-pm-course/
 │   │   ├── 02_Personas.md
 │   │   ├── 03_OKRs_Roadmap.md
 │   │   ├── 04_Vet_Summit_2026.md
-│   │   └── 05_conference_attendees.csv
+│   │   ├── 05_conference_attendees.csv
+│   │   └── 06_Lead_Scoring_Logic.md
 │   ├── 📁 module 0/
 │   │   └── module0.md
 │   ├── 📁 module 1/
@@ -166,6 +167,7 @@ All context files live in the `course-starter` repo under `/Pawprint`:
 | `03_OKRs_Roadmap.md` | Quarterly OKRs and product roadmap (Mar 2026 — Feb 2027) |
 | `04_Vet_Summit_2026.md` | Strategic context for the upcoming Vet Summit conference |
 | `05_conference_attendees.csv` | Synthetic conference attendee dataset for Module 5 analysis |
+| `06_Lead_Scoring_Logic.md` | Logic for classifying conference leads (Hot, Warm, Cold) |
 
 
 ---
