@@ -142,7 +142,7 @@ Download the desktop app from [paper.design](https://paper.design/ ). Create a f
 
 ### Step 2 — Install Paper MCP
 
-> 💡 Change directory to the vibe-coding project/pawprint-app folder. Before adding the MCP server, make sure that you've a file open in the Paper desktop app. The MCP server needs a valid session token to communicate with Paper's API. 
+> 💡 Change directory to the vibe-coding project/pawprint-app folder. Before adding the MCP server, make sure that you've a canvas open in the Paper desktop app. The MCP server needs a valid session token to communicate with Paper's API. 
 
 
 
