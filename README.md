@@ -130,16 +130,17 @@ A story arc runs through Modules 1, 2, and 3 to simulate a realistic PM sprint:
 ---
 
 ## Module 4 🍌 — Adal for Content Creation
-> *Use Adal's image generation to create PM visuals without a designer.*
+> *Use Adal as your creative studio to generate a full Go-To-Market (GTM) content package.*
 
-**Goal:** Enable the founding PM to produce launch-quality visual assets independently — persona cards, journey maps, and GTM materials.
-
-**Note:** Image generation in this module is powered by Gemini Nano Banana — Adal's built-in image generation feature.
+**Goal:** Enable the founding PM to produce launch-quality visual and written assets independently — from briefs to speaker cards, HTML emails, and social copy.
 
 | Lesson | Title | Description |
 |--------|-------|-------------|
-| 4.0 | Introduction to Gemini Nano Banana | What it is and how to write effective image prompts for PM use cases |
-| 4.1 | Marketing & Launch Assets for GTM | **[Conference Arc — Part 4]** Create a set of launch assets for the Pawprint conference — speaker photos social card, banner, etc.|
+| 4.1 | GTM Brief | Grounding the campaign strategy using existing PM docs |
+| 4.2 | Speaker Cards | **[Conference Arc — Part 4]** Generate photorealistic speaker cards using Gemini image models |
+| 4.3 | Email Header | Generate a production-ready HTML email header using the `frontend-design` skill |
+| 4.4 | Social Copy | Draft data-backed LinkedIn and X posts for the event speakers |
+| 4.5 | Asset Review & HandOff Package | Create a HandOff package for the Growth team |
 
 ---
 

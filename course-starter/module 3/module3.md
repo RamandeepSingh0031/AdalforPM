@@ -4,10 +4,13 @@
 
 **Learning Objectives:** In this module, you'll learn how to use Adal CLI for software development and data analysis. 
 
-# 3.0 — MCP Overview — What It Is and Why It Matters
+> 🛑 **Prerequisites**
+> - `frontend-design` skill installed — needed for 3.1 (`/plugin marketplace add anthropics/skills`, then `/plugin` to install)
+> - **Paper desktop app** — download from [paper.design](https://paper.design) and create a free account before 3.1
+> - **GitHub account** — needed for 3.2. Have your credentials ready.
 
-## Where We Left Off
- 
+# 3.0 MCP Overview — What It Is and Why It Matters
+
 In Lesson 2.2, we installed the **docx skill** — that lets Adal create and edit Word documents without leaving the terminal. We gave Adal a prompt, and it used the skill to produce a formatted `.docx` file on our machine.
  
 That's Skills. They live inside Adal, travel with it, and work entirely within its own environment.
@@ -25,8 +28,7 @@ It's an open standard that lets an AI agent like Adal communicate with external 
 The clearest way to understand the difference is to look at the same job done two different ways.
  
 **The job:** Jordan needs the conference research report saved as a formatted Word document on the machine.
- 
----
+
  
 ### Option A — The docx Skill
  
@@ -48,7 +50,6 @@ Jordan's prompt
  
 The docx skill is **bundled with Adal**. It knows how to construct a `.docx` file. It handles the formatting, the XML under the hood, all of it inside its own environment.
  
----
  
 ### Option B — The Filesystem MCP
 
@@ -121,17 +122,16 @@ The memo should lead with a one-sentence recommendation, use a clean table for t
 | **Setup** | MD files with bash files | Configure server(local or remote); often needs authentication |
 | **Use Case fit** | Repeatable, custom domain-specific tasks | Heavy integrations with other tools and systems |
 | **Resource Use** | Lower, minimal overhead | Higher, network calls, server overhead and potential higher token usage |
----
+
  
 ## Why This Matters for a PM
----
 
-Reimagine the powerful PM and Engineering 🤝 that happens in external systems from inside the terminal:
+Reimagine the Product and Engineering handoff 🤝 that happens in external systems from inside the terminal:
  
 - Pushing a draft to a web builder → **Paper MCP** *(coming in 3.1)*
 - Read and write issues in GitHub → **GitHub MCP** *(3.2)*
 
-# 3.1- Design a Landing Page for PawPrint's Vet Summit 2026
+# 3.1 Design a Landing Page for PawPrint's Vet Summit 2026
  
 We will use **Paper** — an AI-native canvas for turning ideas into seamless design workflows using natural language. And , we'll use it to build a landing page for PawPrint's Vet Summit 2026.
 
@@ -175,19 +175,18 @@ If a page appears in your Paper dashboard, you're ready for experiencing the fut
 A six-tab conference landing page:
  
 ```
-Home
-Schedule
-Speakers
-Register
-Travel
-FAQ
+- Home
+- Schedule
+- Speakers
+- Register
+- Travel
+- FAQ
 ```
  
-All content is pre-prepared in `@course-starter/Pawprint/04_Pawprint_Vet_Summit_2026.md` — 13 event cards, speaker roster, registration form fields, and sourced research stats. Your job is to use Paper MCP via Adal to turn that content into a live, polished web page.
+All content is pre-prepared in `@course-starter/Pawprint/04_Pawprint_Vet_Summit_2026.md` — 13 event cards, speaker roster, registration form fields, and sourced research stats. Use Paper MCP to turn that content into a live, polished web page.
  
----
  
-## Part 1 — Build the Home Tab
+### Part 1 Build the Home Tab
  
 Start with the hero. This is the first thing a vet sees — it needs to communicate the event, the value, and drive them toward registration in seconds.
  
@@ -203,9 +202,8 @@ Build the Home tab with:
 - A featured speaker preview showing Dr. Amanda Foster, Dr. Priya Nair, and Marcus Webb with name, title, and session name
 - A closing CTA section: "Seats are limited. Register today."  with a Register Now button
 ```
----
  
-## Part 2 — Build the Schedule Tab
+### Part 2 Build the Schedule Tab
  
 The schedule is the highest-information page on the site. The goal is clarity — a vet should be able to scan it in 30 seconds and know exactly what their day looks like.
  
@@ -219,13 +217,25 @@ Build the full day schedule using all 13 event cards from the content file. For 
  
 Add a tag filter bar at the top so visitors can filter by: All / Keynote / Demo / Networking / Panel / Roundtable / Lightning Talk
 ```
+
+### Part 3-6 Subsequent Tabs
+
+> 🔁Continue iteration for the remaining tabs. Add the content from the @course-starter/Pawprint/04_Pawprint_Vet_Summit_2026.md file. Use the ***Paper MCP***, and the ***frontend-design Skill*** to create multiple versions of the design on the artboard. 
+
+> ❇️ Get creative and have fun!
+
+## 🚩 Checkpoint 3.1
  
----
+**What you practised:**
+- Connecting an external MCP server and authenticating it
+- Using Paper MCP to build a real design artifact from a content file
+- Understanding the boundary between Skills (internal) and MCP (external)
+ 
+## 💭**Reflection Post**
+> *Paper lets you design in natural language. Did you to make better creative decisions? Consider learning about shader components to up your design game!*
 
-> 💡Continue iteration for the remaining tabs. Add the content from the markdown file. Use the ***Paper MCP***, and the ***frontend-design Skill*** to create multiple versions of the design on the artboard. Get creative and have fun!
----
 
-# 3.2 — GitHub Integration: Write a Bug Ticket
+# 3.2 GitHub Integration: Write a Bug Ticket
 
 **Prerequisites:** GitHub account exists. Lesson 3.1 complete.
 
@@ -272,3 +282,12 @@ To reproduce: go to the Register tab, leave everything blank, hit Submit — it 
 Please write this up as a proper bug ticket with a clear title,steps to reproduce, what should happen vs what actually happens, 
 and flag it as high priority. Assign it to the Frontend Lead.
 ```
+## 🚩Checkpoint 3.2
+ 
+**What you practised:**
+- Authenticating a remote MCP server using a personal access token
+- Writing a structured bug ticket via GitHub MCP directly from AdaL
+- Chaining MCP servers (Filesystem + Paper + GitHub) in the same workflow
+ 
+## 💭**Reflection Post**
+> *You wrote a GitHub ticket without opening a browser. What other PM tasks that currently live in external tools could realistically move into AdaL — and what would you need to set up to make that happen?*

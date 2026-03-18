@@ -4,7 +4,12 @@
 
 **Learning Objectives:** In this module, we’ll use Adal CLI for PM deliverables: PRDs, competitive intelligence, strategic decisions, and stakeholder communication.
 
-## 2.1 — Skills/Plugins
+> 🛑 **Prerequisites**
+> - `docx` skill installed — needed for 2.2 (`/plugin marketplace add anthropics/skills`, then `/plugin` to install)
+> - `pdf` skill installed — needed for 2.3 (same marketplace)
+> - `prd-writer` skill installed — needed for 2.4 (copy to `~/.adal/skills/prd-writer`)
+
+## 2.1 Skills/Plugins
 
  ***Skills*** are reusable tools that provide Agents with domain-expertise in workflows, industry best practices and transform them into specialists.
  
@@ -29,7 +34,7 @@ Marketplace (GitHub repo, e.g., anthropics/skills)
 > Create a memo doc (2.2)                     # Agent uses docx skill automatically  
 ```
 
-## 2.2 — Thinking Mode- Conference Arc Part 2
+## 2.2 Thinking Mode- Conference Arc Part 2
 
  ***Thinking Mode*** or extended reasoning focuses on deeper step by step reasoning/ chain of thought for complex problems. It is useful for debugging, tricky refactoring or tasks that require critical thinking, problem-solving, and decision-making. It's 'ON' by default, is often token intensive and can be toggled mid-task without cancelling the query simply by pressing the TAB key. 
 
@@ -57,7 +62,7 @@ The memo document should lead with a recommendation, compare all four options, j
 > *"What's the cost for doing nothing?"*
 
 
-## 2.3 — Competitive Intelligence
+## 2.3 Competitive Intelligence
 
 **Prompt in AdaL**
 
@@ -80,12 +85,25 @@ Then using PDF skill, synthesize a @competitive-analysis.pdf with:
 
 ***Note: This will take 5-10 minutes to complete***
 
-## 2.4 - PRD with custom agent skill
+## 2.4 PRD with custom agent skill
 
 **Copy the prd-writer skill to your project directory (~.AdaL/Skills/prd-writer)**
 
 **Prompt in AdaL**
 
 ```bash
-Using the prd-writer skill and the @course-starter/Pawprint/01_Company_Brief.md and @course-starter/Pawprint/03_OKRs_Roadmap.md, draft a feature-level PRD for the AI Symptom Checker. The checker is a Q3 beta launch. It returns urgency levels only — no diagnosis. It needs regulatory sign-off before shipping. Primary success metric ties to Monthly Consultation Volume. Use Jordan's persona constraints throughout.
+- Explain the prd-writer skill and how it works.
+
+- Using the prd-writer skill and the @course-starter/Pawprint/01_Company_Brief.md and @course-starter/Pawprint/03_OKRs_Roadmap.md, draft a feature-level PRD for the AI Symptom Checker. The checker is a Q3 beta launch. It returns urgency levels only — no diagnosis. It needs regulatory sign-off before shipping. Primary success metric ties to Monthly Consultation Volume. Use Jordan's persona constraints throughout.
 ```
+
+## 🚩Checkpoint
+ 
+**What you practised:**
+- Installing and invoking skills to extend AdaL's capabilities
+- Using Thinking Mode to reason through a multi-option strategic decision
+- Running concurrent agents for competitive research
+- Drafting a feature PRD grounded in real product constraints
+ 
+## �**Reflection Post**
+> *Thinking Mode adds reasoning depth. Any other PM tasks where you could use it? Think about it!* 🤔

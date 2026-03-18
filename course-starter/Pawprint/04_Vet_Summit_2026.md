@@ -63,8 +63,8 @@
 
 ### 03 — Keynote: Dr. Amanda Foster
 
-**Name:** "From One Clinic to Three: How Dr. Foster Added $10,000/Month Without a Single New Hire"
-**Meta description:** Dr. Amanda Foster runs three veterinary clinics across the Bay Area. After rolling out Pawprint across all three locations, her practice added $10,000+ in additional monthly revenue within 6 months — while cutting her on-call hours by 40%. She'll walk through exactly how she structured the rollout, what surprised her, and what she'd do differently.
+**Name:** "Beyond the Burnout Ceiling"
+**Meta description:** Dr. Amanda Foster runs three veterinary clinics across the Bay Area. After rolling out Pawprint, her practice added $10,000+ in monthly revenue while cutting on-call hours by 40%.
 **Tags:** `keynote` `burnout` `work-life balance` `independent practice` `revenue growth`
 **Presenter:** Dr. Amanda Foster, DVM — Owner, Foster Veterinary Group (3 locations, Bay Area CA)
 **Time:** 9:45 AM – 10:30 AM
