@@ -46,8 +46,6 @@ Two hours later, your Slack goes off.
 >
 > Hey Jordan, pausing on this list. Three calls in and the quality isn't quite matching the "Hot" label. Ruby Foster and Clara Mendez were engaged on the call but didn't seem close to a decision. Ezra Stone said she applied for Office Hours but didn't end up attending. Not urgent, but worth a second look at how these were selected before we go further.
 ---
-
-You sent that list based on the Office Hours applicant filter, but you didn't cross-check it against the scoring data. Three calls in and the pattern is clear enough to warrant a second look.
  
 **Time to go back to the data and figure out where the selection logic broke down.**
 
