@@ -145,15 +145,15 @@ A story arc runs through Modules 1, 2, and 3 to simulate a realistic PM sprint:
 ---
 
 ## Module 5 📊  — Adal for Data Analysis
-> *Use Adal's data analysis capabilities to analyze conference attendee data and produce post-conference leads summary.*
+> *Use Adal's data analysis capabilities to uncover hidden flaws in your data, correct business logic, and produce accurate reporting.*
 
-**Goal:** Enable the founding PM to analyze data and produce insights independently.
-
-**Note:** Data Analysis in this module is powered by Adal's data analysis capabilities. 
+**Goal:** Enable the founding PM to use data analysis to solve a high-stakes business problem and communicate the resolution effectively.
 
 | Lesson | Title | Description |
 |--------|-------|-------------|
-| 5.1 | Analyze Data — Attendee Analysis & Leads | **[Conference Arc — Part 5]** Work with synthetic conference attendee data. Exercise: load a CSV, run analysis, and produce a post-conference leads summary |
+| 5.1 | Build the Post-Summit Lead Dashboard | Build an initial dashboard from the unverified attendee data to surface the highest-intent leads for Sales. |
+| 5.2 | In the Weeds | **[Conference Arc — Part 5]** Sales flags that "Hot" leads are cold. Student forms hypotheses, audits the scoring model, discovers a massive flaw, and recalculates scores for the full pipeline. |
+| 5.3 | The Follow-Up | Turn the corrected data into a self-contained, interactive HTML dashboard and draft accountable Slack communications to close the loop with Sales. |
 
 ---
 
