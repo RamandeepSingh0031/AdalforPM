@@ -141,7 +141,7 @@ ApplyForOfficeHours regardless of whether the person actually attended.
 4. State the root cause in one clear sentence.
 ```
  
-> 💡 **The Office Hours Illusion:** 97 of 137 attendees applied for Office Hours — 71% of the room clicked that checkbox. But we only gave 20 seats. The model awards +40 points for clicking, the same it would award for actually attending. That single flaw inflated scores across 77 people who never set foot in Room A.
+> 💡 **The Office Hours Illusion:** 97 of 137 attendees applied for Office Hours — 71% of the room clicked that checkbox. But we only had 20 seats. The model awards +40 points for clicking, the same it would award for actually attending. That single flaw inflated scores across 77 people who never set foot in Room A.
 
 ### Step 5: Fix the Scoring Model
  
