@@ -1,5 +1,7 @@
 # Module 1: Fundamentals: A Tour of Adal CLI
 
+**⏱️ Estimated Time:** 45–60 minutes
+
 **Work Setting:** You had a chat with VP, Growth and he thinks it's time to start attending conferences to increase Pawprint's visibility and generate leads. You agree and decide to research a list of conferences Pawprint should attend this year or next year.
 
 **Learning Objectives:** In this module, you’ll get a tour of Adal CLI, learn how to use files for context and use search agents to perform research.
@@ -8,6 +10,18 @@
 > - AdaL CLI installed and running — if you haven't set this up, watch the setup clip before starting this module
 > - No additional skills or MCPs needed for this module
 
+
+## Project Orientation
+
+Before we run any prompts, let's explore our main project folders and learn how to start our web-app.
+
+```bash
+# Navigate to the project directory
+cd "vibe-coding project/pawprint-app"
+
+# Start the dev server
+npm run dev
+```
 
 ## 1.1 Read Core Context Files
 

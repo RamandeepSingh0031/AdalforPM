@@ -1,13 +1,15 @@
 # Module 3: Adal for Software Development
 
+**⏱️ Estimated Time:** 90–120 minutes
+
 **Work Setting:** You've shared your recommendation memo. The leadership team is optimistic and has set an ambitious goal of 75+ vet leads. Instead of just exhibiting at two conferences, they agreed to hosting a small conference and exhibiting at one industry conference in Q3. 
 
-**Learning Objectives:** In this module, you'll learn how to use Adal CLI for software development and data analysis. 
+**Learning Objectives:** In this module, you'll learn the difference between skills and MCP and also use Adal CLI for software development and design workflows. 
 
 > 🛑 **Prerequisites**
 > - `frontend-design` skill installed — needed for 3.1 (`/plugin marketplace add anthropics/skills`, then `/plugin` to install)
 > - **Paper desktop app** — download from [paper.design](https://paper.design) and create a free account before 3.1
-> - **GitHub account** — needed for 3.2. Have your credentials ready.
+> - **Linear account** — needed for 3.2. Have your credentials ready.
 
 # 3.0 MCP Overview — What It Is and Why It Matters
 
@@ -129,7 +131,7 @@ The memo should lead with a one-sentence recommendation, use a clean table for t
 Reimagine the Product and Engineering handoff 🤝 that happens in external systems from inside the terminal:
  
 - Pushing a draft to a web builder → **Paper MCP** *(coming in 3.1)*
-- Read and write issues in GitHub → **GitHub MCP** *(3.2)*
+- Read and write issues in Linear → **Linear MCP** *(3.2)*
 
 # 3.1 Design a Landing Page for PawPrint's Vet Summit 2026
  
@@ -202,7 +204,14 @@ Build the Home tab with:
 - A featured speaker preview showing Dr. Amanda Foster, Dr. Priya Nair, and Marcus Webb with name, title, and session name
 - A closing CTA section: "Seats are limited. Register today."  with a Register Now button
 ```
- 
+
+>🔑 When you've finalized the layout, select the final artboard in Paper use this prompt to build the webpage in AdaL
+
+```bash
+Use the paper mcp server to translate the selected design in paper to Conference.jsx file as the home tab for the conference landing page. Ensure everything is translated perfectly.Spin up the server after it's integrated.
+```
+
+
 ### Part 2 Build the Schedule Tab
  
 The schedule is the highest-information page on the site. The goal is clarity — a vet should be able to scan it in 30 seconds and know exactly what their day looks like.
@@ -235,59 +244,43 @@ Add a tag filter bar at the top so visitors can filter by: All / Keynote / Demo 
 > *Paper lets you design in natural language. Did you to make better creative decisions? Consider learning about shader components to up your design game!*
 
 
-# 3.2 GitHub Integration: Write a Bug Ticket
+# 3.2 Linear Integration: Write a Bug Ticket
 
-**Prerequisites:** GitHub account exists. Lesson 3.1 complete.
+**Prerequisites:** Linear account exists. Lesson 3.1 complete.
 
-### Step 1 — Generate a Personal Access Token (PAT)
- 
-1. Go to [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens)
-2. Click **"Fine-grained tokens"**
-3. Name it `adal-mcp`, set expiration to 90 days
-4. Click **"Generate token"** and copy it immediately
- 
-> ⚠️ **GitHub won't show this token again.** Copy it before closing the page.
-
-### Step 2 — Set up GitHub MCP
+### Step 1 — Set up Linear MCP
 
 ```
-# Set token BEFORE starting AdaL
-export GITHUB_TOKEN="ghp_xxxx" # macOS / Linux 
-# OR
-$env:GITHUB_TOKEN="ghp_xxxx" # Windows
-
-adal
-/mcp add github
+/mcp add linear         # Add server
+/mcp                    # Open dialog
+# → Select server → Authenticate
+# Browser opens → Approve → Done!
+# ✓ "15 tools available"
 ```
 
-### Step 3 — Verify
+### Step 2 — Verify
  
 ```bash
 /mcp
 ```
  
-You should see `github` listed as an active MCP server.
+You should see `linear` listed as an active MCP server.
 
 **Prompt in Adal:**
  
 ```bash
-Using the GitHub MCP, create a bug issue in the pawprint/vibe-coding-project repository.
+Using the Linear MCP, create a bug issue in the repository.
  
-The registration form on the Vet Summit conference page lets users submit without filling in any of the required fields — no error shows up, it just goes through. This is a problem because we need clean lead data from conference registrations.
- 
-Required fields are: Full Name, Email, Practice Name, Practice Size, and Current Telehealth Status.
- 
-To reproduce: go to the Register tab, leave everything blank, hit Submit — it works when it shouldn't.
- 
-Please write this up as a proper bug ticket with a clear title,steps to reproduce, what should happen vs what actually happens, 
-and flag it as high priority. Assign it to the Frontend Lead.
+Something is broken in the registration flow. When an attendee fills out the Vet Summit registration and hits submit, the form still shows their details. 
+
+This is a data quality issue. Clear the form after a successful submission so it's blank. Flag this as high priority.
 ```
 ## 🚩Checkpoint 3.2
  
 **What you practised:**
 - Authenticating a remote MCP server using a personal access token
-- Writing a structured bug ticket via GitHub MCP directly from AdaL
-- Chaining MCP servers (Filesystem + Paper + GitHub) in the same workflow
+- Writing a structured bug ticket via Linear MCP directly from AdaL
+- Chaining MCP servers (Filesystem + Paper + Linear) in the same workflow
  
 ## 💭**Reflection Post**
-> *You wrote a GitHub ticket without opening a browser. What other PM tasks that currently live in external tools could realistically move into AdaL — and what would you need to set up to make that happen?*
+> *You wrote a Linear ticket without opening a browser. What other PM tasks that currently live in external tools could realistically move into AdaL — and what would you need to set up to make that happen?*

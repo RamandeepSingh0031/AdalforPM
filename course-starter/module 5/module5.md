@@ -1,4 +1,6 @@
 # Module 5: AdaL for Data Analysis
+
+**⏱️ Estimated Time:** 75–90 minutes
  
 **Work Setting:** The Vet Summit 2026 was a hit. The floor was packed, the invite-only Office Hours (Session 09A) hit its maximum capacity of 20 practice owners, and the team is riding the high. It's Monday morning. Your first task is to process the attendee data and send the high-potential leads to Sales.
  
@@ -35,7 +37,7 @@ clean and scannable. Include:
 4. A funnel showing: Registered → Checked-In → Applied OH → Attended OH
 ```
 
-> The dashboard renders. You scan it. **33 Hot leads**, a solid haul from a first conference. The top of the table is full of practice owners who applied for Office Hours. Looks like a clean list. You export it and fire off a Slack to Rachel.
+The dashboard renders. The table looks like a clean list. You fire off a Slack to the sales team.
 
 ## 5.2 In the Weeds
  
@@ -60,10 +62,10 @@ Read @course-starter/Pawprint/05_conference_attendees.csv and
  
 I exported 33 Hot leads (LeadScore >= 85) from the post-summit dashboard
 and sent them to Sales. Three calls in, Rachel is flagging that some leads
-feel less ready than the score suggests — engaged on the call but not close
-to a decision, and one mentioned she applied for Office Hours but didn't attend.
+feel less ready than the score suggests engaged on the call but not close
+to a decision, and one mentioned she applied for Office Hours but did not attend.
  
-Before I investigate, help me list every possible reason why a lead
+Before I investigate, list every possible reason why a lead
 could score Hot but not behave like one:
  
 - Could the scoring logic be rewarding the wrong signals?
@@ -72,10 +74,10 @@ could score Hot but not behave like one:
 - Could it be something else entirely?
  
 For each hypothesis, tell me exactly what I would need to check to
-confirm or rule it out. Do not investigate yet — just map the possibilities.
+confirm or rule it out. Do not investigate yet just map the possibilities.
 ```
 
-> 💡 **Why this step?** A PM who jumps straight to the answer fixes the loudest symptom and misses the root cause. Listing hypotheses first forces you to consider multiple failure modes.
+> 💡 **Why this step?** A PM who jumps straight to the answer fixes the loudest symptom and misses the root cause. Listing hypotheses forces you to consider multiple failure modes.
 
 ### Step 2: Pull the Flagged Records
  
@@ -240,33 +242,18 @@ One-line insight below each chart. Executive-grade, fully responsive.
 The investigation is done. The model is fixed. The dashboard is rebuilt.
 Now close the loop — before Rachel burns through 72 more bad calls.
  
-**Prompt in AdaL**
-```bash
-Draft a short Slack reply from Jordan to Rachel. Acknowledge the scoring flaw (applying for OH was over-weighted),
-confirm her read was right, ask her to pause remaining calls,and offer to send the corrected list within the hour.
-Tone: direct, accountable, no over-apologising.
-```
 ## 🚩 Checkpoint
  
 **What you practised:**
 - Identifying the difference between a signal and a proxy for intent
 - Forming hypotheses before touching data — the discipline that prevents wrong fixes
-- Scoring model auditing: tracing a number back to its inputs and isolating the flaw
-- Root cause analysis: distinguishing the symptom (bad calls) from the cause (miscalibrated weight)
-- Rescoring a full dataset and quantifying the real-world impact of a model change
-- Building a corrected stakeholder dashboard with transparent versioning
 - Peer communication under pressure: owning a mistake clearly and moving straight to the fix
- 
----
  
 ## 💭 Reflection
  
-> *The model scored exactly what it was told to score. That's the problem.*
- 
-**AI amplifies** Clean output feels authoritative. Fast output skips the scrutiny. Before any AI-assisted model touches a business decision, ask:
+AI amplifies Clean output feels authoritative. Fast output skips the scrutiny. Before any AI model touches a business decision, ask:
  
 - *What behaviour am I rewarding — and does it actually predict the outcome I care about?*
-- *Who acts on this output, and what do they lose if it's wrong?*
 - *Have I stress-tested the edges, or just checked that the happy path looks right?*
  
-**The speed AI gives you is an asset. The judgement it runs on is your responsibility.**
+**`The speed AI gives you is an asset. The judgement it runs on is your responsibility.`**

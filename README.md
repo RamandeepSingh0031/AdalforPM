@@ -1,20 +1,24 @@
-# Adal CLI for Product Managers — Course Structure
+# AdaL for Product Managers — Course Structure
 
-**Course:** Adal CLI for PMs  
-**Reference Company:** Pawprint (veterinary telehealth, Series A)  
-**Format:** Open source GitHub repo  
+**Course:** AdaL for PMs  
+**Reference Company:** Pawprint (veterinary telehealth, Series A) 
 **Last Updated:** March 2026
 
 ---
 
 ## Course Overview
 
-This course teaches product managers how to use Adal CLI through hands-on PM workflows set inside Pawprint — a realistic Series A startup. Students work as the founding PM, owning a broad scope across core product, roadmap coordination, and light analytics.
+This course shows how product managers can use AdaL through hands-on PM workflows set inside Pawprint — a realistic Series A startup. Students work as the founding PM, owning a broad scope across core product, roadmap coordination, and light analytics.
 
-The course is structured across two directories:
+**⏱️ Total Course Time:** ~6–8 hours
+
+**📹 [Watch AdaL for PMs Playlist](https://www.youtube.com/playlist?list=PL4cw-0c-_Qrn4HjAserPY07JRMOF95Hl-)** : 5-min walkthrough for each module
+
+The course is structured across three directories:
 
 - **course-starter** — Pawprint context files, lesson instructions, and exercise prompts
 - **vibe-coding project** — Pawprint web app students run locally for software development tasks
+- **solution** — Sample outputs and reference implementations for each module
 
 ---
 
@@ -58,19 +62,26 @@ adal-for-pm-course/
 │               ├── ForVets.jsx
 │               ├── PetOwners.jsx
 │               └── Pricing.jsx
+│
+└── 📁 solution/
+    ├── 📁 Module Resources/
+    └── 📁 vibe-coding project/
+        └── 📁 pawprint-app/
 ```
 
 ---
 
 ## Narrative Thread: The Conference Sprint
 
-A story arc runs through Modules 1, 2, and 3 to simulate a realistic PM sprint:
+A story arc runs through Modules 1–5 to simulate a realistic PM sprint:
 
 | Step | Module | What happens |
 |------|--------|--------------|
 | **Research** | 1.3 | PM researches 3 conferences to potentially sponsor. Produces a single-page report with ROI estimates. |
 | **Decision under pressure** | 2.3 | Senior management (CEO + CTO) likes the idea but pushes back. PM must evaluate Sponsor vs. Exhibit vs. Host vs. No Conference using deep reasoning mode. |
 | **Build** | 3.1 | Management greenlights hosting. PM uses Paper (via MCP) to build the conference landing page. |
+| **Content Creation** | 4.2 | PM generates speaker cards and GTM assets for the conference launch. |
+| **Data Analysis** | 5.2 | Sales flags that "Hot" leads are cold. PM audits the scoring model, discovers a flaw, and recalculates the full pipeline. |
 
 ---
 
@@ -154,6 +165,17 @@ A story arc runs through Modules 1, 2, and 3 to simulate a realistic PM sprint:
 | 5.1 | Build the Post-Summit Lead Dashboard | Build an initial dashboard from the unverified attendee data to surface the highest-intent leads for Sales. |
 | 5.2 | In the Weeds | **[Conference Arc — Part 5]** Sales flags that "Hot" leads are cold. Student forms hypotheses, audits the scoring model, discovers a massive flaw, and recalculates scores for the full pipeline. |
 | 5.3 | The Follow-Up | Turn the corrected data into a self-contained, interactive HTML dashboard and draft accountable Slack communications to close the loop with Sales. |
+
+---
+
+## 🎓 Using the Solutions
+
+If you get stuck on a lesson, use the `solution/` directory as a reference for **sample outputs** and implementation patterns.
+
+- **Sample PM deliverables:** `solution/Module Resources/`
+- **Sample finished app implementation:** `solution/vibe-coding project/pawprint-app/`
+
+These are example approaches to guide your work—not the only valid solutions.
 
 ---
 

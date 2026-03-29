@@ -1,5 +1,7 @@
 # Module 2: Advanced PM Workflows
 
+**⏱️ Estimated Time:** 90–120 minutes
+
 **Work Setting:** You presented your conference research to the CEO and CTO. They liked the idea but pushed back on the cost and asked you to evaluate four options: Sponsor, Exhibit, Host, or No Conference. They want a recommendation memo by tomorrow.
 
 **Learning Objectives:** In this module, we’ll use Adal CLI for PM deliverables: PRDs, competitive intelligence, strategic decisions, and stakeholder communication.
@@ -36,7 +38,7 @@ Marketplace (GitHub repo, e.g., anthropics/skills)
 
 ## 2.2 Thinking Mode- Conference Arc Part 2
 
- ***Thinking Mode*** or extended reasoning focuses on deeper step by step reasoning/ chain of thought for complex problems. It is useful for debugging, tricky refactoring or tasks that require critical thinking, problem-solving, and decision-making. It's 'ON' by default, is often token intensive and can be toggled mid-task without cancelling the query simply by pressing the TAB key. 
+ ***Thinking Mode*** or extended reasoning focuses on deeper step by step reasoning/ chain of thought for complex problems. It is useful for debugging, tricky refactoring or tasks that require critical thinking, problem-solving, and decision-making. 
 
 **Prompt in AdaL**
 ```bash
@@ -67,7 +69,7 @@ The memo document should lead with a recommendation, compare all four options, j
 **Prompt in AdaL**
 
 ```bash
-Launch concurrent agents to research different competitors simultaneously from @course-starter/Pawprint/01_Company_Brief.md
+Launch parallel agents to research different competitors simultaneously from @course-starter/Pawprint/01_Company_Brief.md
 
 For each competitor, research:
 - Product features and capabilities
@@ -92,7 +94,7 @@ Then using PDF skill, synthesize a @competitive-analysis.pdf with:
 **Prompt in AdaL**
 
 ```bash
-- Explain the prd-writer skill and how it works.
+- Explain the prd-wrtier skill @.adal\skills\prd-writer\.
 
 - Using the prd-writer skill and the @course-starter/Pawprint/01_Company_Brief.md and @course-starter/Pawprint/03_OKRs_Roadmap.md, draft a feature-level PRD for the AI Symptom Checker. The checker is a Q3 beta launch. It returns urgency levels only — no diagnosis. It needs regulatory sign-off before shipping. Primary success metric ties to Monthly Consultation Volume. Use Jordan's persona constraints throughout.
 ```
@@ -105,5 +107,5 @@ Then using PDF skill, synthesize a @competitive-analysis.pdf with:
 - Running concurrent agents for competitive research
 - Drafting a feature PRD grounded in real product constraints
  
-## �**Reflection Post**
+## 💭**Reflection Post**
 > *Thinking Mode adds reasoning depth. Any other PM tasks where you could use it? Think about it!* 🤔

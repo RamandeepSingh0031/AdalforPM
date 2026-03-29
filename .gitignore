@@ -3,12 +3,17 @@
 /*.jpg
 /*.gif
 /*.md
-!/README.md
 /*.py
 /*.pdf
 /*.txt
 /*.html
 /*.docx
+
+# Ignore AdaL CLI config directory
+.adal/
+
+# Ignore Miscellaneous resources folder in solution directory
+solution/Miscellaneous resources/
 
 # Ensure the .gitignore itself is tracked
 !.gitignore

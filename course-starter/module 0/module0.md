@@ -1,5 +1,7 @@
 # AdaL Installation & Setup Guide
 
+**⏱️ Estimated Time:** 20–30 minutes
+
 ## Prerequisites
 *   **Node.js**: Version 20.0.0 or newer
     * Check: `node -v`  

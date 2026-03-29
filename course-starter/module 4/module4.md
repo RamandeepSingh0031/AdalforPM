@@ -1,6 +1,8 @@
 # Module 4: Content Creation
 
-**Work Setting:** The Vet Summit is confirmed for Q3 2026. The CEO just gave you the green light and asked you to own the pre-event marketing push. You have the full event programme, a speaker roster, and Pawprint's brand voice. You wan to create a polished GTM content package: speaker cards, an email campaign header and more to hand to the Growth team by end of week.
+**⏱️ Estimated Time:** 60–90 minutes
+
+**Work Setting:** The Vet Summit is confirmed for Q3 2026. The CEO just gave you the green light and asked you to own the pre-event marketing push. You have the full event programme, a speaker roster, and Pawprint's brand voice. You want to create a polished GTM content package: speaker cards, an email campaign header and more to hand to the Growth team by end of week.
 
 **Learning Objectives:** In this module, you'll produce publication-ready assets.
 
@@ -95,7 +97,7 @@ Using the frontend-design skill, @gtm_brief.md, and @course-starter/Pawprint/04_
 
 Requirements:
 - Dimensions: 600px wide (standard email width), ~280px tall
-- Dark navy background (#0D1B2A), warm accent (#E8A87C) for headline and CTA
+- Deep Black (#050505), Muted Gold (#9A8E4E), and crisp White for headline and CTA 
 - Content: Event name, tagline, date ("Q3 2026 — San Francisco, CA"), and a prominent "Reserve Your Spot" CTA button
 - Include a subtle stat below the CTA: "70% of vet practices still don't offer telehealth. That's your window." — styled as a secondary line, muted colour
 - Must be inline CSS only (no external stylesheets — email client compatibility)
@@ -132,11 +134,7 @@ Adal will search for the cited statistics in the event cards and weave them into
 ```bash
 Refer to @course-starter/Pawprint/04_Vet_Summit_2026.md and @gtm_brief.md.
 
-Search the web to verify the following stats cited in the event cards before using them:
-- Telehealth adoption dropped from 38% to 29% between 2023 and 2024
-- Burnout costs the veterinary industry $1–2 billion annually
-- Veterinarian deficit of 70,092 by 2032
-- Online vet consultation market projected to reach $6.46 billion by 2034
+Search the web to verify the following stats cited in the event cards before using them.
 
 For each of the four named speakers (Dr. Sarah Chen, Dr. Amanda Foster, Marcus Webb, Dr. Priya Nair), write:
 
@@ -165,7 +163,7 @@ Review all assets generated in this module:
 - social_copy_vet_summit.md
  
 Create a handoff document (gtm_handoff.md) that includes:
-1. Asset inventory — file name, intended use, and which channel or team member it's for
+1. Asset inventory — file name, intended use, and which channel or team member it is for
 2. Usage notes — any constraints per asset (e.g. inline CSS requirement for the email, AI portrait disclaimer for speaker cards)
 3. Open items — anything that still needs a human decision before the asset ships
 4. Next steps — ordered by priority, who owns each, and suggested deadline relative to a Q3 event date
@@ -179,4 +177,4 @@ Create a handoff document (gtm_handoff.md) that includes:
 - Web search for stat verification for the publishable content
 
 ## 💭**Reflection Post**
-> *You generated both images and HTML from the same brief. Do you feel like you acted as creative director, not designer?*
+> *You generated both images and HTML from the same brief. Do you feel AdaL followed your creative direction well?*
