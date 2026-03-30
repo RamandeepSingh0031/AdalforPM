@@ -135,7 +135,7 @@ A story arc runs through Modules 1–5 to simulate a realistic PM sprint:
 |--------|-------|-------------|
 | 3.0 | MCP Overview — What It Is and Why It Matters | Conceptual primer Comparing Docx Skill vs FileSystem MCP. Install and configure the Paper MCP. Brief intro to Paper as a web builder tool. Sets up the environment for 3.1 |
 | 3.1 | Build the Conference Homepage | **[Conference Arc — Part 3]** Management approved hosting. PM uses Paper MCP via Adal to build the Pawprint conference landing page |
-| 3.2 | GitHub Integration — Bridge Product and Engineering | Connect Adal to GitHub. Exercise: Write a bug ticket |
+| 3.2 | Linear Integration — Bridge Product and Engineering | Connect Adal to Linear. Exercise: Write a bug ticket |
 
 
 ---
