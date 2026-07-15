@@ -2,6 +2,8 @@
 
 **⏱️ Estimated Time:** 90–120 minutes
 
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/BwhhgcoMvqE?si=1FTA9DCITkkQ9MaO)
+
 **Work Setting:** You've shared your recommendation memo. The leadership team is optimistic and has set an ambitious goal of 75+ vet leads. Instead of just exhibiting at two conferences, they agreed to hosting a small conference and exhibiting at one industry conference in Q3. 
 
 **Learning Objectives:** In this module, you'll learn the difference between skills and MCP and also use Adal CLI for software development and design workflows. 

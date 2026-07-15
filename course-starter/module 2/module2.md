@@ -2,6 +2,8 @@
 
 **⏱️ Estimated Time:** 90–120 minutes
 
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/B8NLYzWywxw?si=pTf4-SMtWsla3XFW)
+
 **Work Setting:** You presented your conference research to the CEO and CTO. They liked the idea but pushed back on the cost and asked you to evaluate four options: Sponsor, Exhibit, Host, or No Conference. They want a recommendation memo by tomorrow.
 
 **Learning Objectives:** In this module, we’ll use Adal CLI for PM deliverables: PRDs, competitive intelligence, strategic decisions, and stakeholder communication.

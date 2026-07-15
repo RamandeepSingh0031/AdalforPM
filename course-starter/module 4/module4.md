@@ -2,6 +2,8 @@
 
 **⏱️ Estimated Time:** 60–90 minutes
 
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/PVcpZPf6jtw?si=L2UyY_ywcftxDtis)
+
 **Work Setting:** The Vet Summit is confirmed for Q3 2026. The CEO just gave you the green light and asked you to own the pre-event marketing push. You have the full event programme, a speaker roster, and Pawprint's brand voice. You want to create a polished GTM content package: speaker cards, an email campaign header and more to hand to the Growth team by end of week.
 
 **Learning Objectives:** In this module, you'll produce publication-ready assets.

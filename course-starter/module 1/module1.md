@@ -2,6 +2,8 @@
 
 **⏱️ Estimated Time:** 45–60 minutes
 
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/FYF2j5qY9Sg?si=UhfUlLHUOoETGern)
+
 **Work Setting:** You had a chat with VP, Growth and he thinks it's time to start attending conferences to increase Pawprint's visibility and generate leads. You agree and decide to research a list of conferences Pawprint should attend this year or next year.
 
 **Learning Objectives:** In this module, you’ll get a tour of Adal CLI, learn how to use files for context and use search agents to perform research.

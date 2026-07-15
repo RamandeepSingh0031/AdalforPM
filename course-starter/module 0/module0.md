@@ -2,6 +2,8 @@
 
 **⏱️ Estimated Time:** 20–30 minutes
 
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/06Flo8jSiNQ?si=xQSi8f0DaBrhkh3_)
+
 ## Prerequisites
 *   **Node.js**: Version 20.0.0 or newer
     * Check: `node -v`  

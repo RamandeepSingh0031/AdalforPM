@@ -1,6 +1,8 @@
 # Module 5: AdaL for Data Analysis
 
 **⏱️ Estimated Time:** 75–90 minutes
+
+**📹 Module Video:** [Watch the walkthrough](https://youtu.be/ewKub3keArA?si=IS0twWMYt8nwue0M)
  
 **Work Setting:** The Vet Summit 2026 was a hit. The floor was packed, the invite-only Office Hours (Session 09A) hit its maximum capacity of 20 practice owners, and the team is riding the high. It's Monday morning. Your first task is to process the attendee data and send the high-potential leads to Sales.
  
